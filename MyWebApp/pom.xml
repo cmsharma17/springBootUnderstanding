@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.cms</groupId>
 	<artifactId>MyWebApp</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>  
 	<name>MyWebApp</name>
 	<description>First Web App</description>
 
