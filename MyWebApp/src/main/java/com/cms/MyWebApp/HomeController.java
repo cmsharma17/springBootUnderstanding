@@ -43,4 +43,13 @@ public class HomeController {
 		
 		return mv;
 	}
+	
+	@RequestMapping("alienPage")
+	public ModelAndView alienPage(Alien  alien ) {
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("obj", alien);
+		mv.setViewName("alienPage");
+		
+		return mv;
+	}
 }
